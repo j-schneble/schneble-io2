@@ -16,7 +16,7 @@ export default function CallowComp() {
             onClick={() => setShowDemoModal(true)}>  
           <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
         <Image
-                src='/../public/callog.png'
+                src='/callog.png'
                 width={35}
                 height={35}
                 className="my-5"

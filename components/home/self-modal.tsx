@@ -26,7 +26,7 @@ const DemoModal = ({
             <div className=''>
                 <div className='flex gap-2 '>
          <Image
-                 src='/../public/newself.png'
+                 src='/newself.png'
                  width={35}
                  height={35}
                  className="my-5 cursor-default"

@@ -16,7 +16,7 @@ export default function ChiefComp() {
             onClick={() => setShowDemoModal(true)}>
           <div className="grid grid-cols-1 gap-5 md:grid-cols-3"> 
         <Image
-                src='/../public/who3.png'
+                src='/who3.png'
                 width={35}
                 height={35}
                 className="my-5"

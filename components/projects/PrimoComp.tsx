@@ -16,7 +16,7 @@ export default function PrimoComp() {
             onClick={() => setShowDemoModal(true)}>   
           <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
         <Image
-                src='/../public/pr.png'
+                src='/pr.png'
                 width={35}
                 height={35}
                 className="my-5"

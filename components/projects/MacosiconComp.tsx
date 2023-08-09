@@ -19,7 +19,7 @@ export default function MacComp() {
          
 
         <Image
-                src='/../public/homee.png'
+                src='/homee.png'
                 width={35}
                 height={35}
                 className="my-5"
