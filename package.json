@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@builder.io/react": "^3.0.13",
-    "@chakra-ui/react": "^1.1.2",
+    "@chakra-ui/react": "^1.8.9",
     "@emotion/react": "^11.11.1",
     "@nextui-org/button": "2.0.0",
     "@nextui-org/code": "2.0.0",
