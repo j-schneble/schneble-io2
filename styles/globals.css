@@ -1,0 +1,276 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-primary-900: #141414;
+  --color-primary-50: #fdfdfd;
+}
+.switcher {
+  background: radial-gradient(
+        91.3% 1547.18% at 8.7% 50%,
+        rgb(250, 250, 250) 0%,
+        rgba(155, 155, 155, 0.639) 60.14%,
+        rgb(255, 255, 255) 100%
+      ),
+      rgb(209, 209, 209);
+  transition: opacity 0.25s linear 0s;
+}
+.switcher2 {
+  background: linear-gradient(90deg, transparent, var(--accents-4) 40%, var(--accents-2) 97.19%, transparent);
+  text-shadow: 1px 1px 12px hsla(0, 0%, 100%, .4)
+}
+.grid-new {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(25%, auto));
+  width: var(--max-width);
+  max-width: 100%;
+}
+@media (max-width: 671px) {
+  .grid-new {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      width: max-content;      
+  }
+}
+.button1 {
+  background-image:
+		radial-gradient(
+			40% 50% at center 100%,
+			hsl(270 calc(var(--active) * 97%) 72% / var(--active)),
+			transparent
+		),
+		radial-gradient(
+			80% 100% at center 120%,
+			hsl(260 calc(var(--active) * 97%) 70% / var(--active)),
+			transparent
+		),
+		hsl(260 calc(var(--active) * 97%) calc((var(--active) * 44%) + 12%));
+	background: var(--bg);
+	box-shadow:
+		0 0 calc(var(--active) * 6em) calc(var(--active) * 3em) hsl(260 97% 61% / 0.75),
+		0 0.05em 0 0 hsl(260 calc(var(--active) * 97%) calc((var(--active) * 50%) + 30%)) inset,
+		0 -0.05em 0 0 hsl(260 calc(var(--active) * 97%) calc(var(--active) * 60%)) inset;
+	transition: box-shadow var(--transition), scale var(--transition), background var(--transition);
+	scale: calc(1 + (var(--active) * 0.1));
+} 
+.grid-w {
+  width: 75%;
+  margin-top: 1.15rem/* 12px */;
+  margin-bottom: 1.15rem
+}
+@media (max-width: 671px) {
+  .grid-w {
+    width: var(--max-width);
+    margin-top: 1.0rem/* 12px */;
+    margin-bottom: 1.0rem
+  }
+}
+.margin-response {
+  margin-top: 4rem;
+  margin-left: 1.5rem;
+}
+@media (max-width: 671px) {
+  .margin-response {
+   margin-top: 2rem;
+   margin-left: 0rem;
+ }
+}
+.mob-pad {
+ display:block;
+}
+@media (max-width: 671px) {
+  .mob-pad{
+    padding-left: 2.25rem;
+    padding-right: 2rem;
+    }
+}
+.mob-width {
+  width: 55%;
+}
+@media (max-width: 671px) {
+.mob-width {
+  width:100%;
+}
+}
+.mob-hide {
+  display:block;
+}
+@media (max-width: 671px) {
+    .mob-hide {
+      display:none;
+    }
+}
+.icon-hide {
+  display:none;
+}
+@media (max-width: 671px) {
+    .icon-hide {
+        display:block;
+  }
+}
+.mob-small {
+  display:block;
+}
+ @media (max-width: 671px) {
+  .mob-small {
+   font-size: small;
+   }
+}
+.proj-placement {
+display:block;
+}
+@media (max-width: 671px) {
+  .proj-placement {
+    display:none
+  }
+}
+.lighter-dots {
+  background: linear-gradient(90deg, #f9fafb 15px, transparent 1%) center,
+    linear-gradient(#f9fafb 15px, transparent 1%) center, rgba(0, 0, 0, 0.24);
+  background-size: 16px 16px;
+}
+.darker-dots {
+  background: linear-gradient(90deg, #010101 15px, transparent 1%) center,
+    linear-gradient(#010101 15px, transparent 1%) center,
+    rgba(255, 255, 255, 0.12);
+  background-size: 16px 16px;
+  border: 1px solid    rgba(0, 0, 0, 0.12);
+}
+.light .bg-dots {
+  background: linear-gradient(90deg, #f9fafb 15px, transparent 1%) center,
+    linear-gradient(#f9fafb 15px, transparent 1%) center, rgba(0, 0, 0, 0.24);
+  border: 1px solid    rgba(0, 0, 0, 0.10);
+  box-shadow: #010101;
+  background-size: 16px 16px;
+  border-radius: 10px;
+  padding-left:0.5rem;
+  padding-right: 0.5rem;
+}
+
+.dark .bg-dots {
+  background: linear-gradient(90deg, #050505 15px, transparent 1%) center,
+    linear-gradient(#050505 15px, transparent 1%) center,
+    rgba(255, 255, 255, 0.12);
+  background-size: 16px 16px;
+  padding-left:0.5rem;
+  padding-right: 0.5rem;
+  box-shadow: #ffffff;
+  border-bottom: 1px solid    rgba(255, 255, 255, 0.075);
+  border-top: 1px solid    rgba(255, 255, 255, 0.23);
+}
+.dark .bg-dots2 {
+  background: linear-gradient(90deg, #050505 15px, transparent 1%) center,
+    linear-gradient(#050505 15px, transparent 1%) center,
+    rgba(255, 255, 255, 0.12);
+  background-size: 16px 16px;
+  padding-left:0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 10px; 
+  box-shadow: #ffffff;
+  border: 1px solid    rgba(255, 255, 255, 0.264);
+}
+@media (max-width: 671px) {
+.dark .bg-dots2 {
+display: none; 
+}
+}
+.light .bg-dots2 {
+  background: linear-gradient(90deg, #f9fafb 15px, transparent 1%) center,
+    linear-gradient(#f9fafb 15px, transparent 1%) center, rgba(0, 0, 0, 0.24);
+ 
+  border: 1px solid    rgba(0, 0, 0, 0.10);
+  box-shadow: #010101;
+  background-size: 16px 16px;
+  border-radius: 10px;
+  padding-left:0.5rem;
+  padding-right: 0.5rem;
+}
+@media (max-width: 671px) {
+.light .bg-dots2 {
+display: none;
+}
+}
+.no-scroll {
+  overflow-y: hidden; 
+  overflow-x: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+}
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
+.light .process-box {
+  background: transparent;
+  border: none;
+}
+.dark .process-box {
+  background: transparent;
+  border: none;
+}
+@media (max-width: 671px) {
+  .dark .process-box {
+    display:block;
+  }
+}
+@media (max-width: 671px) {
+  .dark .process-text {
+    color:#0b0b0bc4;
+  }
+}
+.mob-ban {
+  margin-top:10px;
+}
+@media (max-width: 671px) {
+  .mob-ban {
+    margin-top: 3.25rem;
+  }
+}
+.project-space {
+  padding-bottom: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 671px) {
+  .project-space {
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+.mob-footer {
+  display: block;
+}
+@media (max-width: 671px) {
+  .mob-footer {
+    margin-bottom: 1rem;
+  }
+}
+.divide-mob{
+margin-top: 2.5rem;
+}
+@media (max-width: 671px) {
+  .divide-mob {
+margin-top: 1.7rem;
+  }
+}
+@media (max-width: 425px) {
+  .banner_centered {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: 100% !important;
+      max-height: 100% !important;
+  }
+}
+@media (max-width: 640px) {
+  .banner_bottom {
+      height: unset !important;
+  }
+
+  .banner_top {
+      height: unset !important;
+  }
+}
