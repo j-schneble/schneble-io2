@@ -8,7 +8,7 @@ export default function ChiefComp() {
     const { DemoModal, setShowDemoModal } = useDemoModal();
     return (
        
-      <div className='flex  grid-w'>      
+      <div className='flex grid-w'>      
           <div className=''>
           <div className='my-2 '>      
           <DemoModal />
@@ -27,7 +27,7 @@ export default function ChiefComp() {
             <h1>Chief Analytics </h1>
                 </div>              
                 <div className='flex text-base antialiased text-left justify-evenly dark:text-white/80 light:text-zinc-100 font-sfprodisplaylight'>
-                <h1>Building the backend client portal with custom dashboards</h1>
+                <h1>Building the backend client portal with custom dashboards.</h1>
                     </div>
                     </button>
                 </div>     

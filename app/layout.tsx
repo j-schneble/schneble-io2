@@ -5,7 +5,6 @@ import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import clsx from "clsx";
-import { Banner } from '../components/banner'
 
 export const metadata: Metadata = {
 	title: {
@@ -46,7 +45,6 @@ export default function RootLayout({
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					<div className="relative flex flex-col h-screen">
 						<Navbar />
-						<Banner/> 
 							<main className="container flex-col flex-grow max-w-5xl mx-auto text-left mob-pad">
 							{children}
 							</main>					

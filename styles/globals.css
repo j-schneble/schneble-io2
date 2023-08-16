@@ -67,12 +67,12 @@
   }
 }
 .margin-response {
-  margin-top: 4rem;
+  margin-top: 2.wrem;
   margin-left: 1.5rem;
 }
 @media (max-width: 671px) {
   .margin-response {
-   margin-top: 2rem;
+   margin-top: 0.75rem;
    margin-left: 0rem;
  }
 }

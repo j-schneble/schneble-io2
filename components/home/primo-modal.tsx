@@ -42,7 +42,7 @@ const DemoModal = ({
                     Schneble.io is currently being updated , check out the source code for more information on this project
                     </h2>
                   </div>
-                  <div className='flex flex-col mb-10 items-left justify-evenly backdrop-blur-sm '>
+                <div className='grid grid-cols-2 mb-10 items-left justify-evenly'>
           <div className='flex w-4/12 py-1 mt-3 '>
           <Link 
           isExternal 
@@ -51,6 +51,17 @@ const DemoModal = ({
 				>
 					<GithubIcon size={20} />
 					Source
+				</Link>
+          </div>
+          <div className='flex w-4/12 py-1 mt-3 '>
+          <Link 
+          isExternal bg-white border-2 rounded-md border-zinc-400
+          href='https://pr-service.vercel.app/'			
+					className="p-2 border-2 rounded-md bg-white/90 text-zinc-900 border-zinc-800/50"
+				>
+      
+					<span className='pr-1 font-bold'>🔗</span>
+          Primo
 				</Link>
           </div>
         </div> 

@@ -14,12 +14,13 @@ export default function ProjectComp() {
   return (
       <section className='flex w-full my-2 justify-evenly place-content-center '>
 <div className='grid-new '>
-     <ChiefComp/>
+     <MacComp/>
      <CallowComp/>
      <SelfIntroComp/>
      <PrimoComp/>
+     <ChiefComp/>
      <InoteComp/>
-     <MacComp/>
+    
   </div>
   </section>
   )

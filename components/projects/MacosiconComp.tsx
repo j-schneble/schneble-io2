@@ -19,9 +19,9 @@ export default function MacComp() {
          
 
         <Image
-                src='/homee.png'
-                width={35}
-                height={35}
+                src='/weather.png'
+                width={38}
+                height={38}
                 className="my-5"
                 alt='Summary image'
             />
@@ -30,11 +30,11 @@ export default function MacComp() {
           </div> 
        
             <div className='flex mb-1 text-lg antialiased font-medium text-left dark:text-white light:text-zinc-900 font-sfprodisplayregular' >
-            <h1>macOS icons </h1>
+            <h1>Your Forecast</h1>
                 </div>  
             
                 <div className='flex text-base antialiased text-left justify-evenly dark:text-white/80 light:text-zinc-100 font-sfprodisplaylight'>
-                <h1>A set of 48 macOS icons, includes both a dark and light theme.</h1>
+                <h1>Access current weather data for any location with ease. </h1>
                     </div>
                     </button>
                 </div>
