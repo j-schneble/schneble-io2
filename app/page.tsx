@@ -16,7 +16,7 @@ export default function Home() {
 			</div>
 				<div className="flex flex-col text-left cursor-default mob-width justify-evenly ">			
 					<h2 className={subtitle({ class: "mt-4" })}>
-					I build responsive web applications that are efficient, fast, and acessible to all.
+					I build responsive web applications that are efficient, fast, and accessible to all.
 					</h2>
 					<h2 className={subtitle({ class: "" })}>
 					Utilizing Typescript frequently to boost productivity, experimenting with Swift, and always aiming to keep a clean interface.
