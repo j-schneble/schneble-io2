@@ -39,7 +39,7 @@ const DemoModal = ({
                     </div>
                     <div className='flex gap-3 mt-1 antialiased text-left cursor-default justify-evenly text-black/90 dark:text-white/90'>
                    <h2>
-                   Schneble.io is currently being updated , all gumroad products are still available.
+                   Schneble.io is currently being updated , check out the source code for more information on this project
                     </h2>
                   </div>
                   <div className='grid grid-cols-2 mb-10 items-left justify-evenly'>
