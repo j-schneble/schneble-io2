@@ -38,12 +38,12 @@ export default function Home() {
 			<div className='pt-2 border-t divide-mob border-black/10 dark:border-white/10 '>		
 				<div className="flex flex-col mt-4 text-left cursor-default mob-width justify-evenly ">			
 					<h2 className={subtitle({ class: "w-10/12 p-2 process-box text-base text-black/80 dark:text-white/80" })}>
-				Here are a few projects. Most of them are open-source, <span className='text-blue-500'>check out the code and feel free to contribute.</span> 
+				Moving over new projects. <span className='text-blue-500'>Updates coming soon.</span> 
 					</h2>			
 				</div>
-				<div className='flex items-center project-space justify-evenly place-content-center'>
+				{/* <div className='flex items-center project-space justify-evenly place-content-center'>
 					<ProjectsComp/>
-				</div>		
+				</div>		 */}
 			</div> 
 		</section>
 	);
