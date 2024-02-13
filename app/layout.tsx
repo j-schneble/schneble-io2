@@ -49,7 +49,7 @@ export default function RootLayout({
 							{children}
 							</main>					
 							<footer className="bottom-0 left-0 z-20 w-full p-2 border-t shadow border-gray-200/20 md:flex md:items-center md:justify-between md:p-6 ">   
-								<span className="pb-3 text-sm text-gray-600 cursor-default mob-footer sm:text-center dark:text-gray-400">© 2023<a href="https://Schneble.io/" className="hover:underline"><span className='px-1'>|</span>Schneble.io™</a> 
+								<span className="pb-3 text-sm text-gray-600 cursor-default mob-footer sm:text-center dark:text-gray-400">© 2024<a href="https://Schneble.io/" className="hover:underline"><span className='px-1'>|</span>Schneble.io™</a> 
     							</span>
 							</footer>
 					</div>
