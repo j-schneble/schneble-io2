@@ -25,7 +25,7 @@ export const Banner = () => {
                 <span className='flex items-center tracking-widest text-center backdrop-blur-sm dark:text-blue-500 mr-7 justify-evenly '> Currently moving from my old site </span>
                 <Button onClick={handleClick}  data-dismiss-target="#sticky-banner" type="button" 
                 // className="fixed text-sm text-gray-900 right-2 dark:hover:text-white dark:bg-transparent dark:text-white">
-                 className="absolute top-0 right-0 items-center justify-center flex-shrink-0 ml-2 text-sm text-gray-900 bg-transparent dark:hover:text-white dark:bg-transparent dark:text-white"> 
+                 className="absolute top-0 left-0 right-0 items-center justify-center flex-shrink-0 ml-2 text-sm text-gray-900 bg-transparent dark:hover:text-white dark:bg-transparent dark:text-white"> 
                     <div className='rounded-lg dark:hover:bg-black/80'>
                     <svg className="w-4 h-4 p-1 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
