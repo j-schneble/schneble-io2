@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { NextUIProvider } from "@nextui-org/system";
-
+import {useRouter} from "next/navigation";
 
 export interface ProvidersProps {
 	children: React.ReactNode;
@@ -10,6 +10,8 @@ export interface ProvidersProps {
 }
 
 export function Providers({ children }: ProvidersProps) {
+	const router = useRouter();
+
 	return (
 		<NextUIProvider>
 			<div>
