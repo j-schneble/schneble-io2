@@ -1,9 +1,9 @@
 // components/Modalx.tsx
 'use client'
 // components/Modalx.tsx
-import { MdOutlineDescription } from "react-icons/md";
+
 import React, { useEffect } from 'react';
-import { Card, Image } from '@nextui-org/react';
+import { Image } from '@nextui-org/react';
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 interface ModalyProps {
   isOpen: boolean;

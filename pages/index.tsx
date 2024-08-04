@@ -1,13 +1,13 @@
-import { Link, Snippet, Code, button as buttonStyles } from "@nextui-org/react";
+import { Link, button as buttonStyles } from "@nextui-org/react";
 import NextLink from "next/link";
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
+
+import { subtitle } from "@/components/primitives";
+
 import DefaultLayout from "@/layouts/default";
 import {LayersIcon} from "@/components/LayersIcon";
 import { GiCartwheel } from "react-icons/gi";
 import  Connect from "@/components/Connect"
-import Bot from "@/components/ChatComponent"
+
 
 export default function IndexPage() {
   return (
