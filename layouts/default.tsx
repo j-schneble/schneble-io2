@@ -1,5 +1,4 @@
-import { Link } from "@nextui-org/react";
-import { Head } from "./head";
+
 import { Providers } from "../pages/providers";
 
 import { Navbar } from "@/components/navbar";
@@ -11,7 +10,7 @@ export default function DefaultLayout({
 }) {
   return (
     <div className="relative flex flex-col h-screen">
-      <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+      <Providers>
 					<div className="relative flex flex-col h-screen">
 						<Navbar />
 							<main className="container flex-col flex-grow max-w-5xl px-6 mx-auto text-left mt-9 mob-pad">
