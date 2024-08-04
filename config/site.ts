@@ -1,22 +1,31 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Jack Schneble",
-	description: "",
-	navItems: [
-		 	{
-					label: "schneble.io",
-			 		href: "/",
-			 	},
-					 ],
-					 navMenuItems: [
-							{
-								label: "Profile",
-								href: "/profile",
-							},
-					 ],
-	links: {
-		github: "https://github.com/j-schneble",
-		docs: "https://github.com/j-schneble",
-	},
+  name: "Schneble.io",
+  description: "Developer",
+  navItems: [
+    {
+      label: "Home",
+      href: "/",
+    },
+  ],
+  pages: [
+    {
+      label: "Home",
+      href: "/",
+    },
+    {
+      label: "Recents",
+      href: "/recents",
+    },
+    {
+      label: "BlackRoulette",
+      href: "/blackroulette",
+    },
+  ],
+  links: {
+    github: "https://github.com/j-schneble",
+    brsource: "https://github.com/j-schneble/blackroulette",
+    roulette: "https://marketplace.visualstudio.com/items?itemName=j-schneble.blackroulette-theme",
+  },
 };
