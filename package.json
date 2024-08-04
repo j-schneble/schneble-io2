@@ -6,7 +6,7 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
+		"lint": "next lint"
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^2.8.2",
