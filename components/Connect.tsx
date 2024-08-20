@@ -46,30 +46,31 @@ const Connect = () => {
   }
 
   return (
-    <div className='flex flex-col w-full mt-2 '>
+    <div className='flex flex-col w-full mt-2 rounded-sm'>
       <div className='mt-4 mb-2 '>
         <div className='flex items-center gap-2 py-2 justify-evenly'>
           <MailIcon className='stroke-1 brightness-25 text-zinc-600' />
           <div className="block w-full text-left">
-            <p className='text-base font-normal text-white'> 
+            <p className='text-base font-normal text-zinc-600'> 
               Lets connect - <span className='italic font-light text-zinc-600'> send me a message</span>
             </p> 
           </div>
         </div>
       </div>
 
-      <form onSubmit={handleSubmit} className="flex flex-wrap h-48 mb-6 w-72 md:flex-nowrap md:mb-0">
+      <form onSubmit={handleSubmit} className="flex  flex-wrap h-48 mb-6 w-72 rounded-sm md:flex-nowrap md:mb-0">
         <Input
           id='message'
           type='message'
           role="textbox" 
           value={message}
+          className='rounded-sm'
           placeholder="Type your message.."
         //   variant={"bordered"}
           labelPlacement="outside"
           onChange={event => setMessage(event.currentTarget.value)}
           classNames={{
-            input: "resize-y min-h-[40px] text-lg", /* Ensure font size is at least 16px */
+            input: "resize-y bg-default-100  min-h-[40px] text-base", /* Ensure font size is at least 16px */
           }}
           endContent={
             <Button

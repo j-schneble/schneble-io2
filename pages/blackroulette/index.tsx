@@ -5,14 +5,19 @@ import { Link } from "@nextui-org/link";
 import {Image} from "@nextui-org/react";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { GithubIcon } from "@/components/icons";
-import DefaultLayout from "@/layouts/default";
 import Colors from '@/components/colors';
 import { siteConfig } from "@/config/site";
+import { Navbar } from "@/components/navbar";
 
 export default function BlackRoulette() {
   return (
-    <DefaultLayout>
-        <div className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+
+    <div className="relative bg-zinc-950 overflow-hidden flex items-center justify-center flex-col h-screen">
+   
+                  <div className="relative flex r flex-col h-screen">
+                      <Navbar />
+                      <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+                      <div className="flex flex-col items-center  justify-center gap-4 py-8 md:py-10">
             <div className="justify-center inline-block max-w-lg mt-4 text-center">
                 <h1 className='items-center mt-2 antialiased font-thin text-center text-white text-7xl'>
                     Black 
@@ -70,6 +75,17 @@ export default function BlackRoulette() {
         <div>
         </div>
         </div>
-    </DefaultLayout>
+                          </main>					
+                          <footer className="flex items-center justify-center w-full py-3">
+                              <span className="pb-3 text-sm text-gray-600 cursor-default mob-footer sm:text-center dark:text-gray-400">© 2024<a href="https://Schneble.io/" className="hover:underline"><span className='px-1'>|</span>Schneble.io™</a> 
+                              </span>
+                          </footer>
+                  </div>
+             
+    
+  </div>
+
+
+   
   );
 }

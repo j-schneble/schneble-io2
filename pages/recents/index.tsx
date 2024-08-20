@@ -91,7 +91,7 @@ export default function Recents () {
       
     return (
      <DefaultLayout>
-        <div className="grid grid-cols-1 gap-8 p-12 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-2 gap-10 p-10 md:grid-cols-2 lg:grid-cols-3">
             {cards.map((card, index) => (
                     <Cardx key={index} title={card.title} 
                     cardDescription={card.cardDescription} 
